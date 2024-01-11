@@ -4,7 +4,7 @@ This repository contains code examples and explanations for 10 fundamental metho
 
 ## List of Methods:
 
-1. [Write a script like this](#task-01.js)
+1. [Write a script like this](task-01.js)
 
 You will see in the console the number of categories in ul#categories, then the elements li.item.
 For the skin element li.item in the ul#categories list, find and output to the console the text of the element's title (the <h2> tag) and the number of elements in the category (all <li>, inserted into this).
