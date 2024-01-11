@@ -8,24 +8,19 @@ This repository contains code examples and explanations for 10 fundamental metho
 You will see in the console the number of categories in ul#categories, then the elements li.item.
 For the skin element li.item in the ul#categories list, find and output to the console the text of the element's title (the <h2> tag) and the number of elements in the category (all <li>, inserted into this).
 To complete this task, you need to use the forEach() method and control the DOM navigation.(#add-event-listener)
-
 2. Write a script for the ingredients array for the skin element:(task-02)
 Create an element <li>. Obov'yakovo vikoristovy method document.createElement().
 Add the name of the ingredient as a text instead.
 Give the element the class item.
 After that, insert <li> in one operation into the ul#ingredients list.
-
 3. Write a script to create a gallery and display an array of data on the display. HTML list ul.gallery. (task-03)
 <ul class="gallery"></ul>
 A vikory array of images objects for creating <img> elements nested in <li>. To create the layout of the vikory template row, use the insertAdjacentHTML() method.
 All gallery elements must be added to the DOM in one append operation.
-
 4. Change counterValue to keep the exact values of the doctor and initialize these values to 0. (task-04)
 Add auditory clicks to the buttons in the middle, which increase or change the value of the doctor.
 Update the interface for new values of the counterValue change.
-  
 5. Write a script that, when typing text in the input#name-input (input name), inserts the exact value into the span#name-output. If the input is empty, the “Anonymous” row will appear. (task-05)
-   
 6. Write a script that, when the focus is on an input (called blur), checks it for the correct number of characters entered. (task-06)
 <input
    type="text"
@@ -48,22 +43,18 @@ To add styles to the vikory CSS class, valid and invalid, which we have already 
 #validation-input.invalid {
    border-color: #f44336;
 }
-
 7. Write a script that reacts to changing the value of input#font-size-control (input) and changes the online style of span#text, and also the power of font-size. As a result, tightening the string will change the size of the text. (task-07)
 
 <input id="font-size-control" type="range" min="16" max="96" />
 <br />
 <span id="text">Abracadabra!</span>
-
 8. Write a script to manage the login form. (task-08)
 The form submission processing form.login-form must be processed before submit.
 When the form is submitted, the page does not need to be re-enabled.
 If the form has empty fields, issue an alert in advance about those fields that are required to be filled in.
 Once the user has filled out all the fields and submitted the form, select the field values into an object, where the field values will be the authority values, and the field values will be the authority values. To access the elements of the form, vikory power elements.
 Enter the object by entering the data into the console and clear the values of the form fields using the reset method.
-
 9. Напиши скрипт, який змінює кольори фону елемента <body> через інлайн-стиль по кліку на button.change-color і виводить значення кольору в span.color. (task-09)
-
 10. Write a script for creating and cleaning a collection of elements. You enter a number of elements into the input and press the Create button, after which the collection is rendered. When you press the Clear button, the collection of elements is cleared. (task-10)
 
 <div id="controls">
